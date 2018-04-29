@@ -1,0 +1,400 @@
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top: 200px;
+}
+#container{
+  left: 50%;
+}
+ul{
+list-style: none;
+font-size: 25px;
+margin-left: 58px;
+width: 760px;
+}
+h1{
+background-color:#E15E3D;
+font-size: 50px;
+height: 80px;
+width: 750px;
+margin-left: 100px;
+padding-left:15px;
+}
+li:nth-child(2n){
+	background-color:white;
+}
+.fa-trash-o{
+	float:right;
+	color:red;
+}
+input{
+height:30px;
+width:760px;
+margin-left: 100px;
+margin-right: -25px;
+background-color:white;
+font-size:20px;
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left:263px;
+	margin-top:15px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:15px;
+}	
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top: 170px;
+margin-left: 280px;
+}
+ul{
+list-style: none;
+font-size:30px;
+margin-left: 58px;
+width:760px;
+}
+h1{
+background-color:#E15E3D;
+font-size: 50px;
+height: 80px;
+width: 750px;
+padding-left:15px;
+}
+li:nth-child(2n){
+	background-color:white;
+}
+.fa-trash-o{
+	float:right;
+	color: red;
+}
+input{
+height: 30px;
+width:760px;
+margin-left: 100px;
+margin-right: -25px;
+background-color:white;
+font-size:25px;
+
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left: 263px;
+	margin-top: 15px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:5px;
+    margin-left:15px;
+}
+}
+@media only screen and (max-width: 1400px) and (min-width: 1024px) {
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top: 130px;
+margin-left: 80px;
+}
+ul{
+list-style: none;
+font-size: 25px;
+margin-left: 58px;
+width: 760px;
+}
+h1{
+background-color:#E15E3D;
+font-size: 40px;
+height: 80px;
+width: 750px;
+padding-left:15px;
+}
+li:nth-child(2n){
+	background-color:white;
+}
+.fa-trash-o{
+	margin-right: 12px;
+	color: red;
+}
+input{
+height: 30px;
+width: 760px;
+margin-left: 100px;
+margin-right: -25px;
+background-color:white;
+font-size:20px;
+
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left: 350px;
+	margin-top: 22px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:15px;
+    margin-left: 15px;
+
+}
+}
+@media only screen and (max-width: 1023px) and (min-width: 800px) {
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top: 160px;
+margin-left:50px;
+}
+ul{
+list-style: none;
+font-size: 30px;
+margin-left: 58px;
+width: 610px;
+}
+h1{
+background-color:#E15E3D;
+font-size:37px;
+height:70px;
+width:600px;
+padding-left:15px;
+padding-top: 10px;
+}
+li:nth-child(2n){
+	background-color:white;
+}
+.fa-trash-o{
+	margin-right: 12px;
+	color: red;
+}
+input{
+height: 40px;
+width: 610px;
+margin-left: 100px;
+margin-right: -25px;
+background-color:white;
+font-size:25px;
+
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left:230px;
+    margin-top:22px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:15px;
+    margin-left:15px;
+}
+}
+@media only screen and (max-width: 799px) and (min-width:500px) {
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top:180px;
+margin-left:-20px;
+}
+ul{
+list-style: none;
+font-size: 25px;
+margin-left:80px;
+width: 400px;
+}
+h1{
+background-color:#E15E3D;
+font-size:28px;
+height: 60px;
+width:380px;
+margin-left: 128px;
+padding-left:15px;
+padding-top: 15px;
+}
+li:nth-child(2n){
+	background-color:white;
+}
+.fa-trash-o{
+	margin-right: 12px;
+	color: red;
+}
+input{
+height: 30px;
+width: 390px;
+margin-left: 130px;
+margin-right: -25px;
+background-color:white;
+font-size:20px;
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left:105px;
+    margin-top:10px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:15px;
+    margin-left: 15px;
+
+}
+}
+@media only screen and (max-width: 499px) and (min-width:401px) {
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top:150px;
+margin-left:-45px;
+}
+ul{
+list-style: none;
+font-size: 25px;
+margin-left:80px;
+width:300px;
+padding-bottom: 25px;
+}
+h1{
+background-color:#E15E3D;
+font-size:25px;
+height:45px;
+width:290px;
+padding-left:15px;
+padding-top:10px;
+margin-left:120px;
+}
+li:nth-child(2n){
+	background-color:white;
+
+
+}
+.fa-trash-o{
+	margin-right: 12px;
+	color: red;
+	margin-top: 25px
+}
+input{
+height: 40px;
+width:300px;
+margin-left:120px;
+margin-right:-25px;
+background-color:white;
+font-size:25px;
+margin-top: 30px;
+
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left:30px;
+    margin-top:8px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:15px;
+    margin-left: 15px;
+}
+}
+@media only screen and (max-width: 400px) and (min-width: 366px) {
+body{
+font-family: 'Exo 2', sans-serif;
+background: #b2a0a2;  
+margin-top:150px;
+margin-left:-90px;
+}
+ul{
+list-style: none;
+font-size: 25px;
+margin-left:80px;
+width:300px;
+padding-bottom: 25px;
+}
+h1{
+background-color:#E15E3D;
+font-size:25px;
+height:45px;
+width:290px;
+padding-left:15px;
+padding-top:10px;
+margin-left:120px;
+}
+li:nth-child(2n){
+	background-color:white;
+
+
+}
+.fa-trash-o{
+	margin-right: 12px;
+	color: red;
+	margin-top: 25px
+}
+input{
+height: 40px;
+width:300px;
+margin-left:120px;
+margin-right:-25px;
+background-color:white;
+font-size:25px;
+margin-top: 30px;
+
+}
+.completed{
+text-decoration: line-through;
+color: grey;
+}
+.fa-pencil-square-o{
+	margin-left:30px;
+    margin-top:8px;
+}
+.fa-plus-square{
+	color: green;
+}
+#checkBox{
+	height: 19px;
+    width: 19px;
+    margin-right:15px;
+    margin-left: 15px;
+}
+}
+
+
+
+
+
